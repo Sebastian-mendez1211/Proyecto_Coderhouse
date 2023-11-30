@@ -93,8 +93,22 @@ body{
     color: #ffffff;
     font-size:3.8rem ;
 }
+/* Estilos personalizados para el título */
+.titulo {
+    text-align:left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
-.titulo{
+/* Opcional: estilos adicionales para el h2 si lo necesitas */
+.titulo h2 {
+    color: #333;
+    font-size: 3.5rem;
+    font-weight:bold;
+}
+    /* Otros estilos según tu preferencia */
+
+/*.titulo{
     margin-top: 20px;
     justify-content: center;
     margin-bottom: 10px;
@@ -103,7 +117,7 @@ body{
 .titulo h2{
     color: #000000;
 }
-
+*/
 .section-container{
     display: flex;
     flex-direction: row;
@@ -118,7 +132,7 @@ body{
 .section-agregar{
     
     box-shadow: 0 4px 8px 0 rgb(6, 35, 44), 0 6px 20px 0 rgba(0,0,0, .19 );
-    height: 430px;
+    height: 400px;
     width: 250px;
 }
 
