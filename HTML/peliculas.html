@@ -5,23 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineCalidad</title>
     <link rel="preload" href="../css/a.css" as="style">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/a.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="nav-vg">
-            <nav class="header contenedor">
-                <ul class="us">
-                    <li><a href="../index.html"><span>CineCalidad</span></a></li>
-                    <li><a href="./peliculas.html">Peliculas</a></li>
-                    <li><a href="./series.html">Series</a></li>
-                    <li><a href="./Lista.html">Lista</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+            <!-- icono o nombre -->
+    
+    
                 
-            </nav>
-            
-        </div>
+            <!-- boton del menu -->
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+              <!-- elementos del menu colapsable -->
+    
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">CineCalidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./peliculas.html">Peliculas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./series.html">Series</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Lista.html">Lista</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+                </li>
+    
+              </ul>
+    
+              <hr class="d-md-none text-white-50">
+            </div>
+     
+            </div>  
+          </nav>
+
+
     </header>
     <section class="titulo">
         <h2>Destacados</h2>
@@ -145,6 +174,7 @@
         </div>
     </div>
 </footer>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 
 

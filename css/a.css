@@ -12,6 +12,24 @@ body{
 }
 
 /*este es la aprte del header*/
+
+/* Estilos para el menú */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Asegura que los elementos ocupen todo el ancho */
+  
+}
+
+.navbar-nav .nav-item {
+  margin-right: 50px; /* Espacio entre elementos del menú (ajustable) */
+}
+
+/* Opcional: Estilo para el botón del menú en dispositivos móviles */
+.navbar-toggler {
+  order: -1; /* Cambia el orden para mostrar el botón antes que los enlaces en móviles */
+}
+
 .contenedor{
     width:120rem;
     margin: 0 auto ;
@@ -22,48 +40,15 @@ body{
 
 
 
-.header{
-    
-    height: 6rem;
-     /*se utiliza para que el contenido se aleje*/
-    
-
-}
-
-.us{
-    display:flex;
-    justify-content:center;
-    list-style: none;
-    align-items: center;
-    height: 100%;
-    
-}
-
-.header a{
-    color:white;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600px;
-    padding: 6rem;
-    
-}
 
 
-
-.header span{
-    color: orange;
-}
-
-.header a{
-    text-decoration: none;
-}
-
-.header a:hover{
-    background-color: rgb(6, 222, 238);
-    color:black;
-}
 
 /*imagen de fondo*/
+
+.carousel-item img {
+    width: 100%; /* Cambia el tamaño a tu preferencia */
+    height: 900px; /* Para mantener la proporción de la imagen */
+  }
 
 .hero{
     background-image:url(../img/th.jpeg);
@@ -283,7 +268,7 @@ button:hover {
     }
     
     .section-agregar{
-        width: 170px;
+        width: 155px;
     }
     .hero{
         background-size: contain;
@@ -295,6 +280,15 @@ button:hover {
     }
     .footer-links{
         width: 40%;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+    .footer{
+        display: none;
+    }
+    .carousel-caption p{
+        display: none;
     }
 }
     
