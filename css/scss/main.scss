@@ -1,0 +1,66 @@
+
+
+.footer {
+    background-color: #292323;
+    padding: 80px 0;
+  
+    .footer-row {
+      display: flex;
+  
+      .footer-links {
+        width: 28%;
+        padding: 0 15px;
+  
+        h2 {
+          font-size: 20px;
+          color: aliceblue;
+          margin-bottom: 25px;
+          font-weight: 500;
+          border-bottom: 2px solid #65848d;
+          padding-bottom: 10px;
+          display: inline-block;
+        }
+  
+        ul li a {
+          font-size: 18px;
+          text-decoration: none;
+          color: #ffffff;
+          display: block;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho */
+    
+    .nav-item {
+      margin-right: 50px; /* Espacio entre elementos del menú (ajustable) */
+    }
+  }
+  
+  /* Opcional: Estilo para el botón del menú en dispositivos móviles */
+  .navbar-toggler {
+    order: -1; /* Cambia el orden para mostrar el botón antes que los enlaces en móviles */
+  }
+  
+  .contenedor {
+    width: 120rem;
+    margin: 0 auto;
+  }
+  
+  .nav-vg {
+    background-color: #6e8891;
+  }
+  
+
+
+  
+
+  
+
+  

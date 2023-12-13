@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineCalidad</title>
+    <meta name="description" content="Descubre una plataforma de entretenimiento en línea que te ofrece acceso a una amplia selección de series, películas y anime con la mejor calidad. Explora un catálogo diverso y actualizado constantemente, con opciones para disfrutar de tus contenidos favoritos en alta definición. Nuestra plataforma te brinda la experiencia definitiva en streaming, con una interfaz intuitiva que te permite navegar fácilmente y encontrar el contenido que más te apasiona. Disfruta de la mejor experiencia de visualización desde la comodidad de tu hogar, con una amplia gama de géneros y títulos para todos los gustos. Únete a nuestra comunidad y sumérgete en un mundo de entretenimiento ilimitado y calidad excepcional.">
+    <meta name="keywords" content="Online, en vivo, Series, Peliculas, Anime, Tendencias">
     <link rel="preload" href="..//css/a.css" as="style">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/scss/main.css" rel="stylesheet">
     <link href="..//css/a.css" rel="stylesheet">
 </head>
 <body>
@@ -19,8 +22,22 @@
             <!-- boton del menu -->
     
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Icono SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-cinema-4d d-md-none" width="45" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <!-- Aquí inserta el contenido del SVG -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-cinema-4d" width="40" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9.65 6.956a5.39 5.39 0 0 0 7.494 7.495" />
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M17.7 12.137a5.738 5.738 0 1 1 -5.737 -5.737" />
+                    <path d="M17.7 12.338v-1.175c0 -.47 .171 -.92 .476 -1.253a1.56 1.56 0 0 1 1.149 -.52c.827 0 1.523 .676 1.62 1.573c.037 .344 .055 .69 .055 1.037" />
+                    <path d="M11.662 6.4h1.175c.47 0 .92 -.176 1.253 -.49c.333 -.314 .52 -.74 .52 -1.184c0 -.852 -.676 -1.57 -1.573 -1.67a9.496 9.496 0 0 0 -1.037 -.056" />
+                  </svg>
+                </svg>
+                
+                <!-- Ícono de hamburguesa (para pantallas más grandes) -->
+                <span class="navbar-toggler-icon d-lg-none"></span>
+              </button>
     
               <!-- elementos del menu colapsable -->
     
@@ -52,6 +69,9 @@
 
 
     </header>
+    <section class="titulo_principal">
+        <h1>Series</h1>
+    </section>
     <section class="titulo">
         <h2>Destacados</h2>
     </section>
