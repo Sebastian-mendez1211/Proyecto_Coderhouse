@@ -1,15 +1,17 @@
-:root{
-  --color-primario: #ffffff;
-  --color-segundario:#292323;
-  --color-tercero:#6e8891;
-}
+@use 'variables';
+
+
+
+
+
+
 @mixin estilos-comunes {
   display: flex;
   justify-content: center;
 }
 
 .footer {
-    background-color: var(--color-segundario);
+    background-color:variables.$Color-segundario;
     padding: 80px 0;
   
     .footer-row {
@@ -61,7 +63,7 @@
   }
   
   .nav-vg {
-    background-color: var(--color-tercero);
+    background-color: variables.$Color-tercero;
   }
   
 
